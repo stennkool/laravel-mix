@@ -57,7 +57,10 @@
     "webpack-dev-server": "^2.2.0",
     "webpack-md5-hash": "0.0.5",
     "webpack-notifier": "^1.4.1",
-    "webpack-stats-plugin": "^0.1.4"
+    "webpack-stats-plugin": "^0.1.4",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6"
+
   },
   "devDependencies": {
     "ava": "^0.17.0",

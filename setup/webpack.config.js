@@ -135,6 +135,12 @@ module.exports.module = {
         },
 
         {
+            test: /\.ts$/,
+            include: /node_modules/,
+            loaders: ['ts-loader']
+        },
+
+        {
             test: /\.html$/,
             loaders: ['html-loader']
         },
